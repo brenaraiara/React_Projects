@@ -1,15 +1,15 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 import { StyleSheet } from 'react-native';
+import Title from './(tabs)/home';
 
 const HomeScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.welcomeText}>Bem-vindo ao app!</Text>
-      <Text style={styles.welcomeText}>Hello, World!</Text>
+      <Title/>
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
     container: {
